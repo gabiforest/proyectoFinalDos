@@ -51,6 +51,37 @@ body {
   margin-top: 2px;
   margin-bottom: 2px; }
 
+.imagen1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.imagen2 {
+  display: none; }
+  .imagen2imagen2:target {
+    opacity: 0; }
+
+.imagen3 {
+  display: none; }
+  .imagen3imagen3:target {
+    opacity: 0; }
+
+.imagen4 {
+  display: none; }
+  .imagen4imagen4:target {
+    opacity: 0; }
+
+.imagen5 {
+  display: none; }
+  .imagen5imagen5:target {
+    opacity: 0; }
+
+.imagen6 {
+  display: none; }
+  .imagen6imagen6:target {
+    opacity: 0; }
+
 .mini img {
   width: 200px;
   height: 200px;
