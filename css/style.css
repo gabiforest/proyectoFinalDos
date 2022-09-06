@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-/* HEADER */
 .header {
   background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); }
 
@@ -16,16 +15,6 @@
 .active {
   font-weight: bold; }
 
-/* FIN DE HEADER */
-/* MAIN */
-.principal {
-  animation-duration: 3s;
-  animation-name: slidein; }
-
-body {
-  background-color: #8080803f; }
-
-/* footer */
 .footer {
   background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); }
 
@@ -44,12 +33,27 @@ body {
   width: 25px;
   height: 25px; }
 
+/* MAIN */
+.principal {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+body {
+  background-color: #8080803f; }
+
 /* productos */
 .tortas img {
   width: 200px;
   height: 200px;
   margin-top: 2px;
   margin-bottom: 2px; }
+
+.container img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition-duration: 1s;
+  border: #ee5c74 solid 2px;
+  border-radius: 5px; }
 
 .mini img {
   width: 200px;
@@ -64,6 +68,16 @@ body {
   margin-bottom: 5px; }
 
 /* Novedades */
+.texto {
+  color: #d63384; }
+
+.fotoNov:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transition-duration: 2s; }
+
 /*Contacto */
 .parrafo {
   display: flex;
@@ -98,6 +112,12 @@ h1:hover {
   animation-name: girar;
   animation-duration: 3s;
   animation-delay: 0s; }
+
+.carta {
+  background-color: #8080803f; }
+  .carta .carta img {
+    width: 200px;
+    height: 200px; }
 
 /* keyframe */
 @keyframes slidein {
