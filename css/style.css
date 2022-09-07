@@ -113,11 +113,10 @@ h1:hover {
   animation-duration: 3s;
   animation-delay: 0s; }
 
-.carta {
-  background-color: #8080803f; }
-  .carta .carta img {
-    width: 200px;
-    height: 200px; }
+.imgCar {
+  width: 250px;
+  height: 250px;
+  margin: 3px; }
 
 /* keyframe */
 @keyframes slidein {
