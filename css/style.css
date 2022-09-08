@@ -1,7 +1,8 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
+.container img {
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  margin-bottom: 5px; }
 
 .header {
   background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); }
@@ -26,27 +27,15 @@
   color: black; }
 
 .footer a:hover {
-  color: #16ecb7c7;
-  box-shadow: #00241b; }
+  color: #16ecb7c7; }
 
 .footer img {
   width: 25px;
   height: 25px; }
 
-/* MAIN */
 .principal {
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein; }
-
-body {
-  background-color: #8080803f; }
-
-/* productos */
-.tortas img {
-  width: 200px;
-  height: 200px;
-  margin-top: 2px;
-  margin-bottom: 2px; }
 
 .container img:hover {
   -webkit-transform: scale(1.3);
@@ -55,19 +44,6 @@ body {
   border: #ee5c74 solid 2px;
   border-radius: 5px; }
 
-.mini img {
-  width: 200px;
-  height: 200px;
-  margin-top: 2px;
-  margin-bottom: 2px; }
-
-.otros img {
-  width: 200px;
-  height: 200px;
-  margin-top: 2px;
-  margin-bottom: 5px; }
-
-/* Novedades */
 .texto {
   color: #d63384; }
 
@@ -78,37 +54,33 @@ body {
   transform-style: preserve-3d;
   transition-duration: 2s; }
 
-/*Contacto */
-.parrafo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.parrafo table {
+.table {
   border: solid #16ecb7c7 5px;
   color: #ee5c74;
   margin-top: 5px;
   margin-bottom: 5px; }
 
 .color {
-  background-color: #fdcbf1;
-  color: #ee5c74; }
+  color: #ee5c74;
+  background-color: #fdcbf1; }
+
+.color a {
+  text-decoration: none;
+  color: #16ecb7c7;
+  font-weight: bold; }
 
 .color:hover {
-  background-color: black;
-  color: white; }
+  color: black;
+  background-color: white; }
 
 .form-label {
   color: #ee5c74; }
 
-/* nosotros */
 .h2:hover {
   transform: rotate(360deg);
   transition-duration: 1s; }
 
-h1:hover {
+.h1:hover {
   animation-name: girar;
   animation-duration: 3s;
   animation-delay: 0s; }
@@ -134,3 +106,11 @@ h1:hover {
     transform: rotate(360deg); }
   100% {
     transfom: rotateX(360deg); } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #8080803f; }

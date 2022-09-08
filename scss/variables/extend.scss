@@ -1,0 +1,13 @@
+//Agregando extend
+%medidasImg{
+    width: 200px;
+    height: 200px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+//Agregando mixin
+@mixin colors($color, $back){
+    color: $color;
+    background-color: $back;
+}

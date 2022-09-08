@@ -1,5 +1,5 @@
 .footer{
-    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-image: $backone;
 }
 .footer ul li{
     list-style: none;
@@ -9,8 +9,7 @@
     color: black;
 }
 .footer a:hover{
-    color: #16ecb7c7;
-    box-shadow: #00241b;
+    color: $third;
 }
 .footer img{
     width: 25px;

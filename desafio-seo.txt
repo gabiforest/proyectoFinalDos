@@ -1,0 +1,13 @@
+En el index decidi elegir palabras claves que tengan 
+que ver con el contenido del sitio y una descripción que describa 
+de la mejor manera lo ofrecido por el cliente.
+Continuando con este pensamiento en nosotros.html elegi palabras acordes al 
+contenido y una descripcion sobre el cliente y sus años en el rubro.
+En productos.html utilice keywords que tengan que ver con los productos 
+publicados y una descripcion que hable de la elaboracion de los mismos.
+En novedades.html puse keywords que representes la pagina y una descripcion
+acorde a las novedades del momento en el sitio.
+En contacto.html las keywords que utilice tienen que ver con los datos
+que puedan necesitar del sitio y una descripcion que hable de una comunicacion.
+Usé palabras repetidas en las keywords porque representan el sitio por igual.
+
